@@ -6,4 +6,4 @@ Recently, for few-shot or even zero-shot learning, the new paradigm “*pre-trai
 <img width="886" alt="image" src="https://user-images.githubusercontent.com/56249874/159676905-b0b62840-d2e2-449a-a095-b24485cf5f91.png">
 
 ## Acknowledgements
-Our code is based on [Jianlin Su](https://github.com/bojone)'s [bert4keras](https://github.com/bojone/bert4keras) and [Sun Yi](https://github.com/sunyilgdx)'s [NSP-BERT](https://github.com/sunyilgdx/NSP-BERT/).
+Our code is based on [Jianlin Su](https://github.com/bojone)'s [bert4keras](https://github.com/bojone/bert4keras) and [Sun Yi](https://github.com/sunyilgdx)'s [NSP-BERT](https://github.com/sunyilgdx/NSP-BERT/). Thank you for your open source spirit!
