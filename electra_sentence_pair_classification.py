@@ -64,7 +64,7 @@ def evaluate(data_generator_list, data, note=""):
     trues = [d[1] for d in data]
     preds = []
     for i in range(len(patterns_logits[0])):
-        pred = numpy.argmin([logits[i] for logits in patterns_logits])  # max to min
+        pred = numpy.argmin([logits[i] for logits in patterns_logits])  # ⭐️ min
         preds.append(int(pred))
 
     confusion_matrix = metrics.confusion_matrix(trues, preds, labels=None, sample_weight=None)
@@ -92,7 +92,6 @@ if __name__ == "__main__":
     dataset_name = 'MRPC'
 
     # Choose a model----------------------------------------------------------------------
-    # Recommend to use 'uer-mixed-bert-base' and 'google-bert-cased'
     # model_names = ['electra-small', 'electra-base', 'electra-large']
     model_name = 'electra-large'
  
