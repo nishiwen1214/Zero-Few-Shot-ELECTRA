@@ -10,7 +10,6 @@ from bert4keras.tokenizers import Tokenizer
 from bert4keras.models import build_transformer_model
 from bert4keras.snippets import sequence_padding, DataGenerator
 from utils import *
-from hyper_parameters import *
 import os
 # Choose which GPU card to use
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -99,7 +98,7 @@ if __name__ == "__main__":
     pre_model = Model(model_name=model_name)
     dataset = Datasets(dataset_name=dataset_name)
 
-    # Choose a template [0, 1, 2]--------------------------------------------------------
+    # Choose a template------------------------------------------------------------------
     patterns = dataset.patterns[0]
     # Prefix or Suffix-------------------------------------------------------------------
     is_pre = False
@@ -120,9 +119,9 @@ if __name__ == "__main__":
     for p in patterns:
         test_generator_list.append(data_generator(pattern=p, is_pre=is_pre, data=test_data, batch_size=batch_size))
 
-    # Build BERT model---------------------------------------------------------------------
+    # Build ELECTRA model---------------------------------------------------------------------
     tokenizer = Tokenizer(pre_model.dict_path, do_lower_case=True)
-    # Load BERT model with NSP head
+    # Load ELECTRA model with RTD head
 
     model = build_transformer_model(
         config_path=pre_model.config_path, 
