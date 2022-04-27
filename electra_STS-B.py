@@ -12,7 +12,6 @@ from bert4keras.tokenizers import Tokenizer
 from bert4keras.models import build_transformer_model
 from bert4keras.snippets import sequence_padding, DataGenerator
 from utils import *
-from hyper_parameters import *
 import os
 # Choose which GPU card to use
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
