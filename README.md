@@ -1,4 +1,6 @@
-# 《ELECTRA is a Zero-Shot Learner, Too》 (ACL ARR March under review)
+# 《ELECTRA is a Zero-Shot Learner, Too》 
+
+### (ACL ARR March under review)
 
 ## Overview
 Recently, for few-shot or even zero-shot learning, the new paradigm “*pre-train, prompt, and predict*” has achieved remarkable achievements compared with the “*pre-train, fine-tune*” paradigm. A series of small language models (e.g., BERT, ALBERT, RoBERTa) based on **Masked Language Model (MLM)** pre-training tasks became popular and widely used. However, another efficient and powerful pre-trained language model, ELECTRA, has probably been neglected. This paper attempts to accomplish several NLP tasks in the zero-shot scenario using a sample-efficient ELECTRA original pre-training task—**Replaced Token Detection (RTD)**. Through extensive experiments on 15 various NLP datasets, we find that ELECTRA performs surprisingly well as a zero-shot learner, which proves the ELECTRA model has more potential to be stimulated.
