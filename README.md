@@ -6,7 +6,7 @@ Recently, for few-shot or even zero-shot learning, the new paradigm “*pre-trai
 <img width="886" alt="image" src="https://user-images.githubusercontent.com/56249874/159676905-b0b62840-d2e2-449a-a095-b24485cf5f91.png">
 
 ## Main experimental results
-<img width="901" alt="image" src="https://user-images.githubusercontent.com/56249874/159690632-48547efe-be8c-436a-8aea-8a187ed2653d.png">
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/56249874/171055587-027fbf67-e7b9-41e8-9829-91fe0bb42764.png">
 
 ## Environment
 bert4keras>=0.10.8, tensorflow = 1.15.0, keras = 2.3.1；
